@@ -1,6 +1,7 @@
 var sodaItem = document.getElementById('soda');
 var cheeseItem = document.getElementById('cheese');
 var grapesItem = document.getElementById('grapes');
+var breadItem = document.getElementById('bread');
 
 sodaItem.addEventListener('click', () => {
     sodaItem.classList.toggle('picked');
@@ -12,4 +13,8 @@ cheeseItem.addEventListener('click', () => {
 
 grapesItem.addEventListener('click', () => {
     grapesItem.classList.toggle('picked');
+});
+
+breadItem.addEventListener('click', () => {
+    breadItem.classList.toggle('picked');
 });
